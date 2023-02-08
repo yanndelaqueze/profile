@@ -4,34 +4,37 @@ body {
   background-color: #3e503e;
   font-family: 'Lora', serif;
   color: #575F7D;
-  font-size: "17px";
-  line-height: "10px";
+  font-size: 17px;
+  line-height: 10px;
 }
 
 p {
   margin: 30px 0px;
+  text-align: center;
 }
 
 h1 {
-  color: #575F7D;
+  color: #3e503e;
   font-family: 'Roboto', sans-serif;
-  font-size: "32px";
-  line-height: "10px"
+  font-size: 32px;
+  line-height: 10px;
+  text-align: center;
 }
 
 h2 {
-  color: #7ECE90;
+  color: #3e503e;
   font-family: 'Roboto', sans-serif;
-  font-size: "20px";
-  line-height: "10px"
+  font-size: 20px;
+  line-height: 10px
 }
 
 a {
   color: #d5620a;
-  font-weight: "700px";
+  font-weight: 700px;
   font-family: 'Roboto', sans-serif;
-  font-size: "16px";
+  font-size: 16px;
   text-decoration: none;
+  padding: 10px
 }
 
 a:hover {
@@ -44,7 +47,6 @@ div {
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   margin: 20px;
   padding: 30px;
-  text-align: center;
 }
 
 .img-circle {
@@ -60,6 +62,14 @@ div {
   list-style: none;
   padding-left: 0px;
   font-size: 40px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: auto
 }
 
 .container {
