@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Lora', serif;
+  color: #575F7D;
+  font-size: "17px";
+  line-height: "10px";
+}
+
+p {
+  margin: 30px 0px;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: "32px";
+  line-height: "10px"
+}
+
+h2 {
+  color: #7ECE90;
+  font-family: 'Roboto', sans-serif;
+  font-size: "20px";
+  line-height: "10px"
+}
+
+a {
+  color: #d5620a;
+  font-weight: "700px";
+  font-family: 'Roboto', sans-serif;
+  font-size: "16px";
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+div {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin: 20px;
+  text-align: center;
+}
+
+.btn-orange {
+  background-color: #d5620a;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 450px;
+  }
+}
